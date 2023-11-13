@@ -1,0 +1,60 @@
+#CompraBox{
+    width: 50vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1%;
+}
+#TitleBox{
+    width:50vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ItemsBox{
+    width: 50vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#ItemsMiniBox{
+    width: 25vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#ChoiceBox{
+    width: 50vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+h3{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+.mySlides {display: none;}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

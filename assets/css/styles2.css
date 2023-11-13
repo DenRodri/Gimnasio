@@ -1,0 +1,41 @@
+#Dropdown-label{
+    font-size: 1.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2.5vw;
+    font-family: cambria;
+    color: white;
+  }
+  #dropdown{
+   align-self: center;
+   width: 65vw;
+   height: 25vh;
+  }
+  #textarea{
+    align-self: center;
+   width: 65vw;
+   height: 65vh;
+  }
+  #submit{
+   align-self: center;
+   width: 65vw;
+   height: 10vh;
+   margin: 15vh;
+    background-color: #37AF65;
+  }
+  .mySlides {display: none;}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}

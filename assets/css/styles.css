@@ -1,0 +1,102 @@
+#title{
+    text-align: center;
+    color: white;
+  }
+  #description{
+    text-align: center;
+    color: white;
+  }
+  #survey-form{
+    background-color: rgba(0,0,0,0.25);
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+  #name-label{
+    font-size: 1.5vw;
+    font-family: cambria;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2.5vw;
+    color: white;
+  }
+  #name{
+   align-self: center;
+   width: 65vw;
+   height: 10vh;
+  }
+  #email-label{
+    font-size: 1.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2.5vw;
+    font-family: cambria;
+    color: white;
+  }
+  #email{
+   align-self: center;
+   width: 65vw;
+   height: 10vh;
+  }
+  #number-label{
+    font-size: 1.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2.5vw;
+    font-family: cambria;
+    color: white;
+  }
+  #number{
+   align-self: center;
+   width: 65vw;
+   height: 10vh;
+  }
+  #number2{
+    align-self: center;
+    width: 65vw;
+    height: 10vh;
+   }
+  #Dropdown-label{
+    font-size: 1.5vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2.5vw;
+    font-family: cambria;
+    color: white;
+  }
+  #dropdown{
+   align-self: center;
+   width: 65vw;
+   height: 25vh;
+  }
+  #textarea{
+    align-self: center;
+   width: 65vw;
+   height: 65vh;
+  }
+  #submit{
+   align-self: center;
+   width: 65vw;
+   height: 10vh;
+   margin: 15vh;
+    background-color: #37AF65;
+  }
+  .mySlides {display: none;}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
